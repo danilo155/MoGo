@@ -9,3 +9,10 @@
 .team-member {
   padding: 4px;
 }
+.infirmation p {
+  font-size: 24px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Kaushan Script";
+  text-align: center;
+}
