@@ -16,3 +16,49 @@
   font-family: "Kaushan Script";
   text-align: center;
 }
+.infirmation {
+  font-size: 24px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Kaushan Script";
+  text-align: center;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.menu a {
+  color: #95e1d3;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.services {
+  display: flex;
+}
+header .logo {
+  color: #95e1d3;
+}
+.services img {
+  width: 35px;
+  height: 35px;
+}
+.tean_row .team-member {
+  box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0 15px;
+}
+.tean_row {
+  display: flex;
+  padding: 15px;
+}
+.team_photo {
+}
+.row {
+  display: flex;
+  padding: 15px 0;
+}
+.row_ream_row {
+  flex-wrap: wrap;
+}
