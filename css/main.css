@@ -24,18 +24,16 @@
 }
 .menu {
   list-style: none;
-  display: flex;
   justify-content: space-around;
 }
 .menu a {
   color: #95e1d3;
   text-decoration: none;
   text-transform: uppercase;
-  padding-right: 15px;
-  padding-left: 15px;
+  margin-left: 50px;
 }
 .services {
-  display: flex;
+  display: -webkit-box;
 }
 header .logo {
   color: #95e1d3;
@@ -62,16 +60,36 @@ header .logo {
 }
 .tean_row_col-3 {
   display: flex;
+  flex-wrap: wrap;
 }
 .section-title {
   font-size: 24px;
   color: #333333;
   font-weight: 400;
   text-align: center;
+  box-align: center;
 }
 header {
-  position: fixed;
-  background: #333333;
-  width: 1200px;
+  /* position: fixed;
+  background: #333333; */
+  width: 100%;
   max-width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  position: fixed;
+  align-items: center;
+  top: 0;
+}
+.menu {
+  list-style: none;
+  display: flex;
+}
+main {
+  margin-top: 90px;
 }
