@@ -20,7 +20,6 @@
   font-size: 24px;
   color: #333333;
   font-weight: 400;
-  font-family: "Kaushan Script";
   text-align: center;
 }
 .menu {
@@ -47,18 +46,24 @@ header .logo {
   box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
-  padding: 0 15px;
 }
 .tean_row {
   display: flex;
-  padding: 15px;
 }
 .team_photo {
+  padding: 20px;
 }
-.row {
+
+.text_row {
+  text-align: center;
+  width: 100%;
+}
+.tean_row_col-3 {
   display: flex;
-  padding: 15px 0;
 }
-.row_ream_row {
-  flex-wrap: wrap;
+.section-title {
+  font-size: 24px;
+  color: #333333;
+  font-weight: 400;
+  text-align: center;
 }
