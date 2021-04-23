@@ -72,5 +72,6 @@ header .logo {
 header {
   position: fixed;
   background: #333333;
-  width: 100%;
+  width: 1200px;
+  max-width: 100%;
 }
