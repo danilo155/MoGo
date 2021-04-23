@@ -31,6 +31,8 @@
   color: #95e1d3;
   text-decoration: none;
   text-transform: uppercase;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .services {
   display: flex;
@@ -66,4 +68,9 @@ header .logo {
   color: #333333;
   font-weight: 400;
   text-align: center;
+}
+header {
+  position: fixed;
+  background: #333333;
+  width: 100%;
 }
