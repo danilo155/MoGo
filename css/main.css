@@ -2,7 +2,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+@font-face {
+  font-family: "kaushanScript";
+  src: url("/fonts/KaushanScript-Regular.ttf");
+}
 .member {
   display: flex;
 }
@@ -91,5 +94,32 @@ header {
   display: flex;
 }
 main {
-  margin-top: 90px;
+  margin-top: 130px;
+}
+.sservise-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.team_photo {
+  display: flex;
+}
+.logo {
+  font-size: 30px;
+  color: #95e1d3;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.servise-item {
+  width: 281px;
+  margin-right: 121px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2;
+}
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
