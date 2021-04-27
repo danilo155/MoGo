@@ -52,7 +52,8 @@ header .logo {
   display: flex;
 }
 .team_photo {
-  padding: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .text_row {
@@ -93,6 +94,9 @@ header {
 }
 main {
   margin-top: 130px;
+  width: 1200px;
+  max-width: 100%;
+  margin: 130px auto 0;
 }
 
 .team_photo {
