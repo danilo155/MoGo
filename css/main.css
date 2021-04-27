@@ -35,9 +35,7 @@
   text-transform: uppercase;
   margin-left: 50px;
 }
-.services {
-  display: -webkit-box;
-}
+
 header .logo {
   color: #95e1d3;
 }
@@ -96,10 +94,7 @@ header {
 main {
   margin-top: 130px;
 }
-.sservise-wrap {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .team_photo {
   display: flex;
 }
@@ -122,4 +117,21 @@ body {
 h2,
 h3 {
   font-family: "Montserrat", sans-serif;
+}
+.section-title p {
+  font-family: "kaushanScript";
+}
+.photo p {
+  font-family: "kaushanScript";
+}
+.sservise-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+hr {
+  width: 62px;
+  margin: 0 auto;
+  color: #f38181;
+  font-size: 3px;
 }
