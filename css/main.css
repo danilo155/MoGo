@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "kaushanScript";
-  src: url("/fonts/KaushanScript-Regular.ttf");
+  src: url(":/fonts/KaushanScript-Regular.ttf");
 }
 .member {
   display: flex;
