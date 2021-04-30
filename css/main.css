@@ -12,11 +12,11 @@
 .team-member {
   padding: 4px;
 }
-.infirmation p {
+.infirmationp {
   font-size: 24px;
   color: #333333;
   font-weight: 400;
-  font-family: "Kaushan Script";
+  font-family: "KaushanScript";
   text-align: center;
 }
 .infirmation {
@@ -29,21 +29,21 @@
   list-style: none;
   justify-content: space-around;
 }
-.menu a {
+.menua {
   color: #95e1d3;
   text-decoration: none;
   text-transform: uppercase;
   margin-left: 50px;
 }
 
-header .logo {
+header.logo {
   color: #95e1d3;
 }
-.services img {
+.servicesimg {
   width: 35px;
   height: 35px;
 }
-.tean_row .team-member {
+.tean_row.team-member {
   box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
@@ -72,11 +72,11 @@ header .logo {
   box-align: center;
 }
 header {
-  /* position: fixed;
-  background: #333333; */
+  /*position:fixed;
+background:#333333;*/
   width: 100%;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0auto;
   padding-top: 30px;
   padding-right: 15px;
   padding-left: 15px;
@@ -96,7 +96,7 @@ main {
   margin-top: 130px;
   width: 1200px;
   max-width: 100%;
-  margin: 130px auto 0;
+  margin: 130pxauto0;
 }
 
 .team_photo {
@@ -130,10 +130,10 @@ h3 {
   font-weight: 400;
   text-transform: uppercase;
 }
-.section-title p {
+.section-titlep {
   font-family: "kaushanScript";
 }
-.photo p {
+.photop {
   font-family: "kaushanScript";
 }
 .sservise-wrap {
@@ -143,10 +143,10 @@ h3 {
 }
 hr {
   width: 62px;
-  margin: 0 auto;
+  margin: 0auto;
   color: #f38181;
   font-size: 3px;
 }
-.subtitle p {
+.subtitlep {
   font-size: 1.44rem;
 }
