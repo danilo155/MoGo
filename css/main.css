@@ -122,6 +122,14 @@ h2,
 h3 {
   font-family: "Montserrat", sans-serif;
 }
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 0.93rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
 .section-title p {
   font-family: "kaushanScript";
 }
@@ -138,4 +146,7 @@ hr {
   margin: 0 auto;
   color: #f38181;
   font-size: 3px;
+}
+.subtitle p {
+  font-size: 1.44rem;
 }
