@@ -146,9 +146,32 @@ h3 {
 hr {
   width: 62px;
   margin: 0 auto;
-  color: #f38181;
+  background: #f38181;
   font-size: 3px;
 }
 .subtitle p {
   font-size: 1.44rem;
+}
+.menu a {
+  color: #95e1d3;
+  text-transform: uppercase;
+  position: relative;
+  transition: 0.5s;
+}
+.menu a:hover {
+  color: #f38181;
+}
+.menu a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background: #f38181;
+  transition: 0.5s;
+}
+.menu a:hover::after {
+  width: 100%;
+  transform: translate(-50%);
 }
