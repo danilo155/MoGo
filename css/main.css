@@ -6,119 +6,66 @@ html {
   font-size: 15px;
 }
 @font-face {
-  font-family: "kaushanScript";
+  font-family: "KashpianScript";
   src: url("/fonts/KaushanScript-Regular.ttf");
 }
-.member {
-  display: flex;
-}
-.team-member {
-  padding: 4px;
-}
-.infirmation p {
-  font-size: 24px;
-  color: #333333;
-  font-weight: 400;
-  font-family: "Kaushan Script";
-  text-align: center;
-}
-.infirmation {
-  font-size: 24px;
-  color: #333333;
-  font-weight: 400;
-  text-align: center;
-}
-.menu {
-  list-style: none;
-  justify-content: space-around;
-}
-.menu a {
-  color: #95e1d3;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-left: 50px;
-}
-
-header .logo {
-  color: #95e1d3;
-}
-.services img {
-  width: 35px;
-  height: 35px;
-}
-.tean_row .team-member {
-  box-sizing: border-box;
-  box-sizing: border-box;
-  text-align: center;
-}
-.tean_row {
-  display: flex;
-}
-.team_photo {
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
-
-.text_row {
-  text-align: center;
-  width: 100%;
-}
-.tean_row_col-3 {
-  display: flex;
-  flex-wrap: wrap;
-}
-.section-title {
-  font-size: 24px;
-  color: #333333;
-  font-weight: 400;
-  text-align: center;
-  box-align: center;
-}
 header {
-  /* position: fixed;
-  background: #333333; */
-  width: 100%;
+  display: flex;
+  width: 1200px;
   max-width: 100%;
   margin: 0 auto;
-  padding-top: 30px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 30px;
   display: flex;
   justify-content: space-between;
   background: #fff;
-  position: fixed;
   align-items: center;
   top: 0;
 }
-.menu {
-  list-style: none;
+header ul {
   display: flex;
+  list-style: none;
+  justify-content: space-around;
 }
-main {
-  margin-top: 130px;
-  width: 1200px;
-  max-width: 100%;
-  margin: 130px auto;
+header a {
+  color: #95e1d3;
+  text-decoration: none;
+  position: relative;
+  transition: 0.5s;
+  /* text-transform: uppercase; */
+  /* margin-left: 50px; */
+}
+header li {
+  margin-left: 50px;
+}
+header > h2 {
+  color: #95e1d3;
+}
+header a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background: #f38181;
+  transition: 0.5s;
+}
+header a:hover::after {
+  width: 100%;
+  transform: translate(-50%, -50%);
 }
 
-.team_photo {
-  display: flex;
+.pressent-text {
+  font-family: "KashpianScript";
+  text-align: center;
 }
-.logo {
-  font-size: 30px;
-  color: #95e1d3;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+.osnowny-text {
+  text-align: center;
 }
-.servise-item {
-  width: 281px;
-  margin-right: 121px;
-}
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  line-height: 2;
+hr {
+  width: 60px;
+  height: 4px;
+  margin: 0 auto;
+  background: #f38181;
 }
 h2,
 h3 {
@@ -132,49 +79,32 @@ h3 {
   font-weight: 400;
   text-transform: uppercase;
 }
-.section-title p {
-  font-family: "kaushanScript";
+main {
+  width: 1168px;
+  height: 253px;
+  margin: 0 auto;
 }
-.photo p {
-  font-family: "kaushanScript";
-}
-.sservise-wrap {
+.servises {
   display: flex;
   flex-wrap: wrap;
+}
+.servises p {
+  width: 310px;
+  height: 37px;
+  margin-top: 20px;
+}
+.servises-item {
+  margin-right: 35px;
   margin-top: 10px;
 }
-hr {
-  width: 62px;
-  margin: 0 auto;
-  background: #f38181;
-  font-size: 3px;
+.team-photo {
+  display: flex;
 }
-.subtitle p {
-  font-size: 1.44rem;
+.team-photo-title {
+  margin: 10px;
 }
-.menu a {
-  color: #95e1d3;
-  text-transform: uppercase;
-  position: relative;
-  transition: 0.5s;
+.team-photo-title img::before {
 }
-.menu a:hover {
-  color: #f38181;
-}
-.menu a::after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 50%;
-  width: 0;
-  height: 3px;
-  background: #f38181;
-  transition: 0.5s;
-}
-.menu a:hover::after {
-  width: 100%;
-  transform: translate(-50%);
-}
-.team-member:first-child {
-  margin-left: 0;
+.team-photo-title li {
+  background-color: #fce38a;
 }
