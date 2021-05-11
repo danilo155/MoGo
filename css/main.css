@@ -111,19 +111,34 @@ main {
   margin-left: 0;
 }
 
-.member-photo li {
-  background-color: #fce38a;
-}
-.social a {
-  display: block;
-}
 .social li {
   height: 57px;
   width: 57px;
+  background-color: #fce38a;
+  margin-left: 2px;
+}
+.social a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 .social img {
-  justify-content: center;
-  align-items: center;
+  height: 26px;
+}
+.social {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  top: calc(50% - 28.5px);
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 0;
+  transition: 0.3s;
+}
+.social li:hover {
+  background: #95e1d3;
+  transition: 0.3s;
 }
 .member-photo::before {
   content: "";
@@ -145,7 +160,10 @@ main {
   opacity: 1;
   transition: 0.5s;
   top: -10px;
-  bottom: 14px;
+  bottom: 16px;
   left: -10px;
   right: 10px;
+}
+.member-photo:hover .social {
+  opacity: 1;
 }
