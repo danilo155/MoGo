@@ -19,6 +19,7 @@ header {
   background: #fff;
   align-items: center;
   top: 0;
+  margin-bottom: 68px;
 }
 header ul {
   display: flex;
@@ -63,6 +64,10 @@ header a:hover::after {
 }
 .osnowny-text {
   text-align: center;
+  margin-bottom: 40px;
+}
+.servises {
+  margin-top: 65px;
 }
 hr {
   width: 60px;
@@ -99,6 +104,10 @@ main {
 .servises-item {
   margin-right: 35px;
   margin-top: 10px;
+}
+.text {
+  text-align: center;
+  margin-top: 45px;
 }
 .team-photo {
   display: flex;
