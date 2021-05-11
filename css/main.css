@@ -39,6 +39,9 @@ header li {
 header > h2 {
   color: #95e1d3;
 }
+header a:hover {
+  color: #f38181;
+}
 header a::after {
   content: "";
   display: block;
@@ -100,11 +103,49 @@ main {
 .team-photo {
   display: flex;
 }
-.team-photo-title {
-  margin: 10px;
+.member-photo {
+  margin-left: 10px;
+  position: relative;
 }
-.team-photo-title img::before {
+.team-photo-title:first-child {
+  margin-left: 0;
 }
-.team-photo-title li {
+
+.member-photo li {
   background-color: #fce38a;
+}
+.social a {
+  display: block;
+}
+.social li {
+  height: 57px;
+  width: 57px;
+}
+.social img {
+  justify-content: center;
+  align-items: center;
+}
+.member-photo::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(239, 139, 138, 0.8) 0%,
+    rgba(229, 207, 130, 0.8) 100%
+  );
+  opacity: 0;
+  transition: 0.5s;
+}
+.member-photo:hover::before {
+  opacity: 1;
+  transition: 0.5s;
+  top: -10px;
+  bottom: 14px;
+  left: -10px;
+  right: 10px;
 }
