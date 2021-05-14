@@ -176,3 +176,10 @@ main {
 .member-photo:hover .social {
   opacity: 1;
 }
+footer {
+  width: 1200px;
+  min-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
