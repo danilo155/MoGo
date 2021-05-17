@@ -6,7 +6,7 @@ html {
   font-size: 15px;
 }
 @font-face {
-  font-family: "KashpianScript";
+  font-family: "KaushpianScript";
   src: url("/fonts/KaushanScript-Regular.ttf");
 }
 header {
@@ -59,7 +59,7 @@ header a:hover::after {
 }
 
 .pressent-text {
-  font-family: "KashpianScript";
+  font-family: "KaushpianScript";
   text-align: center;
 }
 .osnowny-text {
