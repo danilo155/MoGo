@@ -69,7 +69,10 @@ header a:hover::after {
 .servises {
   margin-top: 65px;
 }
-
+.servises-item {
+  display: flex;
+  width: 33.33%;
+}
 hr {
   width: 60px;
   height: 4px;
@@ -103,8 +106,8 @@ main {
   margin-top: 20px;
 }
 .servises-item {
-  margin-right: 35px;
   margin-top: 10px;
+  align-items: flex-start;
 }
 .text {
   text-align: center;
