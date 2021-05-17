@@ -14,13 +14,13 @@ header {
   width: 1200px;
   max-width: 100%;
   margin: 0 auto;
-  display: flex;
   justify-content: space-between;
   background: #fff;
   align-items: center;
   top: 0;
   margin-bottom: 68px;
 }
+
 header ul {
   display: flex;
   list-style: none;
@@ -73,6 +73,10 @@ header a:hover::after {
   display: flex;
   width: 33.33%;
 }
+.servises {
+  display: flex;
+  flex-wrap: wrap;
+}
 hr {
   width: 60px;
   height: 4px;
@@ -95,10 +99,12 @@ main {
   width: 1168px;
   height: 253px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 .servises {
   display: flex;
   flex-wrap: wrap;
+  max-width: 100%;
 }
 .servises p {
   width: 310px;
@@ -186,4 +192,15 @@ footer {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  header h2 {
+    justify-content: center;
+  }
+  .servises-item {
+    width: 50%;
+  }
 }
