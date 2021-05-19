@@ -9,7 +9,7 @@ html {
   font-family: "KaushpianScript";
   src: url("/fonts/KaushanScript-Regular.ttf");
 }
-header {
+.header-wrapp {
   display: flex;
   width: 1200px;
   max-width: 100%;
