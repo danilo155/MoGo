@@ -5,7 +5,10 @@
 html {
   font-size: 15px;
 }
-
+@font-face {
+  font-family: "KaushpianScript";
+  src: url("/fonts/KaushanScript-Regular.ttf");
+}
 .header-wrapp {
   display: flex;
   width: 1200px;
