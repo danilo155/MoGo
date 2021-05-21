@@ -103,7 +103,8 @@ label {
 .present-text {
   font-family: "KaushanScript-Regular";
   text-align: center;
-  font-weight: 900;
+  font-weight: 400;
+  font-style: normal;
 }
 .text-servises {
   font-family: "Montserrat", sans-serif;
@@ -264,7 +265,10 @@ p {
     display: block;
     width: 100%;
     z-index: 9;
+    transition: 1s;
+    top: -100px;
   }
+
   .menu {
     display: flex;
     flex-direction: column;
