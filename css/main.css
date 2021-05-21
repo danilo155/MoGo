@@ -19,6 +19,7 @@ html {
   align-items: center;
   top: 0;
   margin-bottom: 68px;
+  position: relative;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -58,6 +59,45 @@ header a::after {
 header a:hover::after {
   width: 100%;
   transform: translate(-50%, -50%);
+}
+/* mobile menu*/
+
+input[type="checkbox"],
+label {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+@media (max-width: 768px) {
+  label {
+    display: block;
+  }
+  label span {
+    display: block;
+    height: 2px;
+    width: 25px;
+    background: #333;
+    position: relative;
+  }
+  label span::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 25px;
+    background: #333;
+    position: absolute;
+    top: -10px;
+  }
+  label span::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 25px;
+    background: #333;
+    position: absolute;
+    top: 10px;
+  }
 }
 
 .present-text {
@@ -219,20 +259,11 @@ p {
   nav {
     display: none;
   }
-  .header-wrapp {
-    justify-content: center;
-  }
+
   .servises-item {
     width: 50%;
-    padding: 20px;
   }
-  .team-photo {
-    justify-content: center;
-  }
-  footer {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+
   .container {
     width: 100%;
   }
