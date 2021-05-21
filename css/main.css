@@ -260,7 +260,17 @@ p {
   nav {
     display: none;
   }
-
+  input[type="checkbox"]:checked ~ nav {
+    display: block;
+    width: 100%;
+    z-index: 9;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+  }
   .servises-item {
     width: 50%;
   }
