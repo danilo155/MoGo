@@ -7,7 +7,7 @@ html {
 }
 @font-face {
   font-family: "KaushpianScript";
-  src: url("/fonts/KaushanScript-Regular.ttf");
+  src: url("fonts/KaushanScript-Regular.ttf");
 }
 .header-wrapp {
   display: flex;
