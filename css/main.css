@@ -20,7 +20,9 @@ html {
   top: 0;
   margin-bottom: 68px;
 }
-
+body {
+  font-family: "Roboto", sans-serif;
+}
 header ul {
   display: flex;
   list-style: none;
