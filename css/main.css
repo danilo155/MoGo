@@ -6,7 +6,7 @@ html {
   font-size: 15px;
 }
 @font-face {
-  font-family: "KaushanScript";
+  font-family: "KaushanScript-Regular";
   src: url("/fonts/KaushanScript-Regular.ttf");
 }
 .header-wrapp {
@@ -59,7 +59,7 @@ header a:hover::after {
 }
 
 .pressent-text {
-  font-family: "KaushanScript";
+  font-family: "KaushanScript-Regular";
   text-align: center;
 }
 .text-servises {
