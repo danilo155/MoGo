@@ -5,6 +5,9 @@
 html {
   font-size: 15px;
 }
+header{
+  margin-top: 10px;
+}
 @font-face {
   font-family: "KaushanScript-Regular";
   src: url("../fonts/KaushanScript-Regular.ttf");
