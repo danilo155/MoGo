@@ -15,8 +15,8 @@ header {
 }
 .header-wrapp {
   display: flex;
-  width: 1200px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   justify-content: space-between;
   background: #fff;
@@ -173,10 +173,23 @@ main {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
+}
+.row {
+  display: flex;
+  padding: 15px 0;
+}
+@media (max-width: 425px) {
+  .row .col-3 {
+    width: 100%;
+  }
 }
 .servises-item {
   align-items: flex-start;
   padding: 50px 35px;
+}
+.information {
+  flex-wrap: wrap;
 }
 .text {
   margin-left: 2px;
